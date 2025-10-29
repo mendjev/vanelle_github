@@ -3,5 +3,5 @@
  Étudiante en 4A ILIA
 
 Le lien vers mon compte github est le suivant:
-MENDJE[https://github.com/MENDJEV]
+https://github.com/MENDJEV
 
