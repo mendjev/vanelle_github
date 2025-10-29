@@ -6,5 +6,7 @@ Le lien vers mon compte github est le suivant:
 [VANELLE](https://github.com/MENDJEV)
 
 Insertion d'une image:
-[!](https://fr.freepik.com/photos-vecteurs-libre/devops)
+![Image](https://fr.freepik.com/photos-vecteurs-libre/devops)
 
+
+#STATUS ACTIONS
