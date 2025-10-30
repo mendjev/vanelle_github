@@ -11,4 +11,4 @@ jobs:
 
     steps:
       - name: Display push message
-        run: echo "new push"
+        run: echo "new push!"
