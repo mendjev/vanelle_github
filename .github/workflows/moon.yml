@@ -10,4 +10,4 @@ jobs:
       - name: Get Moon phase
         uses: wei/curl@v1
         with:
-          args: wttr.in/Moon
+          args: "https://wttr.in/Moon?format=3"
