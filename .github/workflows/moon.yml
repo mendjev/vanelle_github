@@ -1,12 +1,13 @@
 name: Moon
 
 on:
-    workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
-    show-moon-phase:
-        runs-on: ubuntu-latest
-
-        steps:
-            - name: Display Moon Phases
-              run: curl wttr.in/Moon
+  moon-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get Moon phase
+        uses: wei/curl@v1
+        with:
+          args: wttrin/Moon
