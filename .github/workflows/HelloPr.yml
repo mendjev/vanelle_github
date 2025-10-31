@@ -1,0 +1,35 @@
+name: Hello PR
+
+on:
+    pull_request:
+        types:
+            - opened
+            - synchronize
+            - reopened
+
+jobs: 
+
+    buils:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Say Hello to PR
+              run: |
+                echo "HELLO PR #${{github.event.pull_request.number}}"
+                echo "================================"
+          
+          
+                echo "Titre: ${{ github.event.pull_request.title }}"
+                
+                echo "Auteur: ${{ github.event.pull_request.user.login }}"
+                
+                
+                echo "Branche source: ${{ github.event.pull_request.head.ref }}"
+                
+            
+                echo "Branche cible: ${{ github.event.pull_request.base.ref }}"
+                
+                
+                echo "================================"
+                
+                
+                echo "✅ Build réussi !"
